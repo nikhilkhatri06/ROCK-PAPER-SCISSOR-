@@ -1,0 +1,54 @@
+/* *,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #ffcf12,
+        rgb(227, 79, 5)
+
+    );
+}
+
+.container{
+    width: 45%;
+    min-width: 500px;
+    background-color: white;
+    padding: 40px 30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+
+    
+}
+
+.score{
+    margin-bottom: 53px;
+    text-align: right;
+}
+
+.wepons{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wepons button{
+    outline: none;
+    background-color: #ffcf12;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.details{
+    text-align: center;
+    margin-top: 20px;
+}
